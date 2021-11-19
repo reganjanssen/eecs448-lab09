@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+    width: 100%;
+    text-align: center;
+    color:royalblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color:palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+form {
+    text-align:left;
+    color:royalblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left:35%;
+}
+
+.Q1, .Q2, .Q3, .Q4, .Q5 {
+    padding-bottom:12px;
+    padding-left: 35px;
+}
+#php {
+    text-align: left;
+    padding-left: 35%;
+}

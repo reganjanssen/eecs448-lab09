@@ -1,0 +1,28 @@
+table {
+    background-color: lightblue;
+    border: 1px solid lightcoral;
+    font-size: 11pt;
+    font-family:'Courier New', Courier, monospace;
+    width: fit-content;
+}
+p {
+    color:royalblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+td {
+    border: 1px solid lightcoral;
+}
+th {
+    color:royalblue;
+    border: 1px solid lightcoral;
+}
+
+body {
+    background-color: lightskyblue;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: palevioletred;
+
+}

@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+li {
+    display: inline;
+}

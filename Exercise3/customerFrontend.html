@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content ="width=device-width, initial-sclae=1">
+        <title>Exercise 3</title>
+    </head>
+        <link rel="stylesheet" href="style.css">
+        <script src="formChecker.js"></script>
+        <body>
+            <h1>Regan's Web Store</h1>
+            <h3 style="color:royalblue;padding-bottom:10px;">Select the items you want and enter your username and password</h3>
+            <div class="store">
+                <form action="customerBackend.php" method="post">
+                    <div class="item1">
+                        <u>Item 1</u><br>
+                            Shirt: $20.00<br><br>
+                            <img src="shirt.jpg" alt="shirt" height="300px" width="300px"><br>
+                            Quantity: <input type="number" name="Quantity1" value="0" id="shirt" min="0"><br>
+                        </div>
+                        <div class="item2">
+                            <br><u>Item 2</u><br>
+                                Sweatpants: $40.00<br><br>
+                                <img src="sweatpants.jpg" alt="sweatpants" height="300px" width="300px"><br>
+                                Quantity: <input type="number" name="Quantity2" value="0" id="sweatpants" min="0"><br>
+                            </div>
+                            <div class="item3">
+                            <br><u>Item 3</u><br>
+                                Hoodie: $30.00<br><br>
+                                <img src="hoodie.jpg" alt="hoodie" height="300px" width="300px"><br>
+                                Quantity: <input type="number" name="Quantity3" value="0" id="hoodie" min="0"><br>
+                            </div>
+                            <h3>Enter the following information:</h3>
+                    <div class="username">
+                        Username: <input name="username" type="text" id="username" placeholder="Enter your email" required><br>
+                        Password: <input name="password" id="password" type="text" placeholder="Enter your password" required><br>
+                    </div>
+                    <p>and </p>
+                    <h3>Select your shipping method:</h3>
+                    <div class="shipping">
+                        <input type="radio" id="free" name="shipping" value="Free 7 Day">Free 7 Day<br>
+                        <input type="radio" id="overnight" name="shipping" value="$50.00 Over Night">$50.00 Over Night<br>
+                        <input type="radio" id="three" name="shipping" value="$5.00 3 Day">$5.00 3 day<br><br>
+                        <input type="submit" value="Submit Purchase" id="submit" style="padding:4px; background-color: skyblue;float:center;"><br>
+                    </div>           
+        </form>
+        <div style="padding-right:35px; padding-bottom:35px;">
+        <button id="pageReset" onclick="location.reload()">Reset Page</button></div>
+        <a href="../index.html">Home page</a>
+    </div>
+        </body>
+</html>
+            
